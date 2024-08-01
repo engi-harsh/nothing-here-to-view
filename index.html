@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harsh Kumar Singh</title>
+    <link rel="icon" href="https://i.ibb.co/zRsTj3p/Frame-1-37.png" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      class="stylesheet"
+    />
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+    emailjs.init({
+      publicKey: "-JbV_C-4LJvyBK64Q",
+    });
+    })();
+      function sendmail(){
+        let parms = {
+          name: document.getElementById("name").value,
+          email: document.getElementById("email").value,
+          subject: document.getElementById("subject").value,
+          message: document.getElementById("message").value,
+        }
+        emailjs.send("service_8lc8phg","template_uxebje2",parms).then(alert("Email Sent!!"))
+      }
+    </script>
+
+  </head>
+
+  <body>
+    <!-------------------------- Header Area -------------------------->
+    <header class="header-area">
+      <div class="container">
+        <div class="header">
+          <a href="" class="logo">
+            <img src="files/signaturecropped.png" alt="" class="signature" />
+            <i class="fa fa-bolt"></i>
+          </a>
+
+          <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <div class="menu_icon">
+            <i class="fa fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-------------------------- Home Page -------------------------->
+    <div class="FirstElement" id="home">
+      <div class="profile-photo">
+        <img src="files/harsh.png" alt="profile picture" />
+      </div>
+      <div class="profile-text">
+        <h5>Hi I'm</h5>
+        <br />
+        <h1>Harsh Kumar Singh</h1>
+        <br />
+        <p> 
+          Welcome to my protfolio website. I am a passionate and dedicated web developer with a strong foundation in HTML, CSS, JS, PHP MyAdmin, RUST, JAVA, Python. I have a strong background in web development and have experience in creating responsive and user-friendly websites. I am skilled in Cybersecurity and have experience in penetration testing and network security. It's been nearly a year since I started my journey in web development, and I am excited to continue my learning and growth as a Full stack Software Engineer. 
+        </p>
+
+        <div class="btn-group">
+          <a href="files/harshkumarsinghresume.pdf" class="btn active"
+            >Download Resume</a
+          >
+          <a href="mailto:hello@harshkumarsingh.online" class="btn">Contact</a>
+        </div>
+
+        <div class="social">
+          <a href="mailto:hello@harshkumarsingh.online"
+            ><i class="fa fa-envelope"></i
+          ></a>
+          <a href="https://github.com/harshuopjs"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/engi-harsh/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------- About Section -------------------------->
+    <section class="about-area" id="about">
+      <div class="container">
+        <div class="about">
+          <div class="about-content">
+            <h4>About Me</h4>
+            <ul>
+              <li>
+                I'm currently pursuing my B.Tech in Computer Science and Engineering from Guru Gobind Singh Indraprastha University, Delhi. I have learned a lot things in my starting phase of my career such as team work, ledership, discipline and more.      
+              </li>
+              <li>
+                I thrive in creative, problem-solving environments and am
+                committed to continuous learning. With a passion for innovation,
+                I'm eager to collaborate on cutting-edge solutions. Ready to
+                make a meaningful impact, I bring dedication and skill to any
+                team.
+              </li>
+            </ul>
+          </div>
+
+          <div class="about-skills">
+            <ul>
+              <li>Name:Harsh Kumar Singh</li>
+              <li>Age:19</li>
+              <li>From:India</li>
+              <li>Email:hello@harshkumarsingh.online</li>
+              <li>Phone:9971959892</li>
+              <li>Availabiltiy:Internship || PartTime</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------- Education & Internship -------------->
+    <section class="education-content" id="education">
+      <div class="container">
+        <div class="row">
+          <div class="education">
+            <h3 class="title">Education</h3>
+            <div class="row">
+              <div class="timeline-box">
+                <div class="timeline">
+                  <!-- Timeline-item -->
+                  <div class="timeline-item">
+                    <div class="circle-dot"></div>
+                    <h3 class="timeline-title">B.Tech CSE</h3>
+                    <h4 class="timeline-title">
+                      JIMS (G.G.S.I.P.U)
+                    </h4>
+                    <h4 class="timeline-title">GREATER NOIDA</h4>
+                    <h4 class="timeline-title">
+                      <i class="fa fa-calendar"></i> 2023-2027
+                      <div class="btns-group">
+                      </div>
+                    </h4>
+                  </div>
+                  <!-- Timeline-item -->
+                  <div class="timeline-item">
+                    <div class="circle-dot"></div>
+                    <h3 class="timeline-title">11th - 12th</h3>
+                    <h4 class="timeline-title">
+                      G.S.B.V. Burari
+                    </h4>
+                    <h4 class="timeline-title">BURARI</h4>
+                    <h4 class="timeline-title">
+                      <i class="fa fa-calendar"></i> 2021-2023
+                      <div class="btns-group">
+                        <!-- <a href="files/23MCA048_UG MARK.pdf" class="btns  active">view </a> -->
+                      </div>
+                    </h4>
+                  </div>
+                  <!-- Timeline-item -->
+                  <div class="timeline-item">
+                    <div class="circle-dot"></div>
+                    <h3 class="timeline-title"></h3>
+                    <h4 class="timeline-title">
+                      JMPS
+                    </h4>
+                    <h4 class="timeline-title">BURARI,Nathupura</h4>
+                    <h4 class="timeline-title">
+                      <i class="fa fa-calendar"></i> 2019-2021
+                      <div class="btns-group">
+                        <!-- <a href="files/232mca048_12thmark.pdf" class="btns   active">view </a> -->
+                      </div>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="internship">
+            <h3 class="title">Internship</h3>
+            <div class="row">
+              <div class="timeline-box">
+                <div class="timeline">
+                  <!-- Timeline-item -->
+                  <div class="timeline-item">
+                    <div class="circle-dot"></div>
+                    <h3 class="timeline-title">
+                      Oasis Infobyte
+                    </h3>
+                    <h4 class="timeline-title">
+                      <i class="fa fa-calendar"></i> AUGUST-2024
+                    </h4>
+                    <li class="timeline-text">
+                      Web Devlopment And Designing 
+                    </li>
+                    <div class="btns-group">
+                      <a href="files/oasisinfobyte.pdf" class="btns   active">view </a>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="circle-dot"></div>
+                    <h3 class="timeline-title">
+                      Prodigy Infotech
+                    </h3>
+                    <h4 class="timeline-title">
+                      <i class="fa fa-calendar"></i> AUGUST-2024
+                    </h4>
+                    <li class="timeline-text">
+                      CyberSecurity Intern 
+                    </li>
+                    <div class="btns-group">
+                      <a href="files/prodigyinfotech.pdf" class="btns   active">view </a>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- Projects -------------------------->
+    <section class="project-content" id="projects">
+      <div class="container">
+        <div class="project-title">
+          <h4>My</h4>
+          <h3>--- Skill -> Certificate -> Achievement ---</h3>
+        </div>
+        <div class="projects">
+          <!-- 1st Project -->
+          <div class="project">
+            <i class="fas fa-code"></i>
+            <h4>Programming Language</h4>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JS</p>
+            <p>JAVA</p>
+            <p>PHP MyAdmin</p>
+            <p>Ruby, PERL, Etc.</p>
+            <i class="fas fa-tools"></i>
+            <h4>Tools</h4>
+            <p>Vs Code</p>
+            <p>Jupyter NoteBook</p>
+          </div>
+          <!-- 2nd Project -->
+          <div class="project">
+            <i class="fa fa-certificate"></i>
+            <h4>Certificate</h4>
+            <h1>Credly</h1>
+            <p>Here you can check out some of my certificates </p>
+            <div class="btn-group">
+              <a
+                href="https://www.credly.com/users/harsh-kumar-singh.d4d28635"
+                class="btn active"
+              >
+                view
+              </a>
+            </div>
+          </div>
+          <!-- 3rd Project -->
+          <div class="project">
+            <i class="fa fa-trophy"></i>
+            <h4>Achievement</h4>
+            <p>;=;</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- Contact Me -------------------------->
+
+    <section class="contact-content" id="contact">
+      <div class="container">
+        <div class="contact-title">
+          <h4>Contact Me</h4>
+          <p>Get In Touch</p>
+        </div>
+        <div class="contact">
+          <form>
+          <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" onclick="sendmail()" class="submit">Send</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- JS -------------------------->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollrrveal"></script>
+    <script src="script.js"></script>
+
+    <!-------------------------- Footer section -------------------------->
+    <footer class="footer" >
+      <small class="message">Made With ❤️ </small>
+      <small class="copyright"
+        >&copy; Copyright 2024. All rights reserved.</small
+      >
+    </footer>
+  </body>
+</html>
